@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
-
+ 
 export default function Navbar({
   isLoggedIn = false,
   userRole = 'client', // 'client' | 'lawyer'
@@ -260,7 +260,6 @@ export default function Navbar({
               </svg>
             </button>
           </form>
-
           {/* Nav Links */}
           <div className="flex flex-col gap-2 font-medium">
             <Link

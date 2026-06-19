@@ -5,30 +5,30 @@ import { motion } from 'framer-motion';
 
 const TOP_LAWYERS = [
   {
-    name: "Sarah Jenkins, Esq.",
+    name: "John Snow, Esq.",
     specialty: "Corporate & VC Law",
     hires: "342 Case Hires",
     rating: "4.95",
     avatarBg: "from-[#B45309] to-[#D97706]",
-    initials: "SJ",
+    initials: "JS",
     badge: "#1 Top Hired"
   },
   {
-    name: "Robert H. Vance",
+    name: "Walter White",
     specialty: "Criminal Defense Expert",
     hires: "298 Case Hires",
     rating: "4.88",
     avatarBg: "from-[#0F172A] to-[#1E293B]",
-    initials: "RV",
+    initials: "WW",
     badge: null
   },
   {
-    name: "Elena Rostova",
+    name: "Arya Stark",
     specialty: "IP & Patent Counsel",
     hires: "276 Case Hires",
     rating: "4.92",
     avatarBg: "from-slate-700 to-slate-900",
-    initials: "ER",
+    initials: "AS",
     badge: null
   }
 ];
