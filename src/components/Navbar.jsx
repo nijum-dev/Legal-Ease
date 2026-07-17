@@ -335,7 +335,7 @@ export default function Navbar({
                   onClick={() => setIsMobileMenuOpen(false)}
                   className="flex-1 py-2 text-center rounded bg-[#B45309] text-white hover:bg-amber-600 text-xs font-semibold"
                 >
-                  Sign Up
+                  Register
                 </Link>
               </div>
             )}
