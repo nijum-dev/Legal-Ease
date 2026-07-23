@@ -41,7 +41,7 @@ export default function Navbar({
   const handleSearchSubmit = (e) => {
     e.preventDefault();
     if (searchQuery.trim()) {
-      router.push(`/browse?q=${encodeURIComponent(searchQuery.trim())}`);
+      router.push(`/browse-lawyers?search=${encodeURIComponent(searchQuery.trim())}`);
       setIsMobileMenuOpen(false);
     }
   };
@@ -104,8 +104,8 @@ export default function Navbar({
               Home
             </Link>
             <Link
-              href="/browse"
-              className={`text-sm font-medium transition-colors hover:text-[#B45309] ${isActive('/browse') ? 'text-[#B45309] font-bold' : 'text-slate-300'
+              href="/browse-lawyers"
+              className={`text-sm font-medium transition-colors hover:text-[#B45309] ${isActive('/browse-lawyers') ? 'text-[#B45309] font-bold' : 'text-slate-300'
                 }`}
             >
               Browse Lawyers
@@ -271,9 +271,9 @@ export default function Navbar({
               Home
             </Link>
             <Link
-              href="/browse"
+              href="/browse-lawyers"
               onClick={() => setIsMobileMenuOpen(false)}
-              className={`px-3 py-2 rounded-md text-sm ${isActive('/browse') ? 'bg-slate-800 text-[#B45309] font-bold' : 'text-slate-300 hover:bg-slate-800/50'
+              className={`px-3 py-2 rounded-md text-sm ${isActive('/browse-lawyers') ? 'bg-slate-800 text-[#B45309] font-bold' : 'text-slate-300 hover:bg-slate-800/50'
                 }`}
             >
               Browse Lawyers
